@@ -3,10 +3,12 @@
 Weekly list of brand-usable TikTok / Instagram / YouTube trends, styled after apparent.com.au.
 Live: https://joetherockhey.github.io/apparent-trends/
 
-Weekly run (Mondays), with FreeLLMAPI desktop app running on :31415:
+Weekly run (Mondays):
 
-    python tools/research.py     # free LLMs read the roundup pages -> data/trends.draft.json
-    node tools/shots.cjs         # one example image per trend -> img/, data/shots.json
-    python tools/build.py        # -> index.html, archive copy in data/weeks/
-
-Then review `index.html` and push.
+1. Research: Claude (Opus) reads the latest round-ups and TikTok sound pages and writes `data/trends.json`
+   (name, status, peak, timeline, brand use, examples, sources). `tools/find_examples.cjs` pulls recent
+   example posts from TikTok discover/sound pages; `tools/oembed.py` dates them.
+   `tools/research.py` is the older free-LLM (FreeLLMAPI) extraction pass, kept as an optional first sweep.
+2. `node tools/shots.cjs` grabs one example image per trend (TikTok cover frame / Instagram embed).
+3. `python tools/ai_images.py` fills any gaps with a labelled AI illustration (Cloudflare Workers AI, free tier).
+4. `python tools/build.py` writes `index.html` and archives the week in `data/weeks/`. Review, then push.

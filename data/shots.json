@@ -1,53 +1,82 @@
 {
  "1": {
   "kind": "example",
-  "url": "https://www.tiktok.com/@vanitythesalon/video/7692581960174112030",
-  "by": "VANITY THE SALON - BREA, CA"
+  "url": "https://www.tiktok.com/@wehnevdp7y0/video/7697162285281840414"
  },
  "2": {
-  "kind": "embed",
-  "url": "https://www.instagram.com/reel/DeHsrJNxeUU",
-  "source": "https://www.anijam.ai/blog/instagram-reels-trends/"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@bronwynposts/video/7658779622686887176"
  },
- "3": null,
- "4": null,
+ "3": {
+  "kind": "example",
+  "url": "https://www.tiktok.com/@shaymitchell/video/7688803683378760990"
+ },
+ "4": {
+  "kind": "example",
+  "url": "https://www.instagram.com/reel/DeHsrJNxeUU/"
+ },
  "5": {
-  "kind": "embed",
-  "url": "https://newengen.com/insights/tiktok-trends/"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@diepolizei/video/7696822470384356630"
  },
- "6": null,
+ "6": {
+  "kind": "example",
+  "url": "https://www.tiktok.com/@ciaralillyyy/video/7697164197041392917"
+ },
  "7": {
-  "kind": "embed",
-  "url": "https://www.anijam.ai/blog/instagram-reels-trends/"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@alfiebbrown/video/7682409207521348886"
  },
  "8": {
-  "kind": "embed",
-  "url": "https://newengen.com/insights/tiktok-trends/"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@lottekln/video/7692053091797060896"
  },
  "9": {
-  "kind": "embed",
-  "url": "https://later.com/blog/instagram-reels-trends/"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@htx.abby115/video/7698165514316631310"
  },
- "10": null,
- "11": null,
- "12": null,
+ "10": {
+  "kind": "example",
+  "url": "https://www.tiktok.com/@sessilygoo/video/7693896480012258590"
+ },
+ "11": {
+  "kind": "example",
+  "url": "https://www.instagram.com/reel/DaapRt4I67d/"
+ },
+ "12": {
+  "kind": "example",
+  "url": "https://www.tiktok.com/@dusk.australia/video/7684188348415560978"
+ },
  "13": {
   "kind": "example",
-  "url": "https://www.tiktok.com/@sexysecret211/video/7652565637427940621",
-  "by": "."
+  "url": "https://www.instagram.com/reel/DeAmc__TMqX/"
  },
- "14": null,
+ "14": {
+  "kind": "example",
+  "url": "https://www.instagram.com/reel/Dd-OHxPoFWQ/"
+ },
  "15": {
-  "kind": "embed",
-  "url": "https://later.com/blog/instagram-reels-trends/"
+  "kind": "example",
+  "url": "https://www.instagram.com/p/Dd65ViWCDVW/"
  },
- "16": null,
- "17": {
-  "kind": "embed",
-  "url": "https://later.com/blog/instagram-reels-trends/"
+ "16": {
+  "kind": "example",
+  "url": "https://www.tiktok.com/@arabellajewelry/video/7698058116205726994"
  },
  "18": {
-  "kind": "source",
-  "url": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  "kind": "example",
+  "url": "https://www.tiktok.com/@kittyelliss/video/7694021995192798497"
+ },
+ "17": {
+  "kind": "ai",
+  "model": "FLUX.1 schnell (Cloudflare Workers AI)"
+ },
+ "20": {
+  "kind": "ai",
+  "model": "FLUX.1 schnell (Cloudflare Workers AI)"
+ },
+ "19": {
+  "kind": "ai",
+  "model": "FLUX.1 schnell (Cloudflare Workers AI)"
  }
 }

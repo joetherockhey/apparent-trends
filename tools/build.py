@@ -1,34 +1,36 @@
-"""data/trends.draft.json + data/shots.json -> index.html (and an archive copy in data/weeks/)."""
-import json, html, datetime, pathlib, shutil, urllib.parse
+"""data/trends.json + data/shots.json -> index.html (and an archive copy in data/weeks/)."""
+import json, html, datetime, pathlib, shutil, urllib.parse, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-trends = json.loads((ROOT / "data/trends.draft.json").read_text("utf-8"))
+trends = json.loads((ROOT / "data/trends.json").read_text("utf-8"))
 shots = json.loads((ROOT / "data/shots.json").read_text("utf-8"))
 today = datetime.date.today()
 monday = today - datetime.timedelta(days=today.weekday())
 wk = f"{monday.day} {monday:%B %Y}"
 e = lambda s: html.escape(str(s or ""))
+STATUS = {"Rising": "rise", "Peaking": "peak", "Seasonal": "peak", "Second wave": "rise", "Steady": "flat", "Past peak": "fade"}
 
 
 def host(u):
     return urllib.parse.urlparse(u).netloc.replace("www.", "")
 
 
-def links(t, shot):
-    seen, out = set(), []
-    urls = list(t["examples"])
-    if shot and shot.get("url") and "/@_/" not in shot["url"] and shot["kind"] != "source":
-        urls.insert(0, shot["url"])
-    if t.get("sound", "") and str(t["sound"]).startswith("http"):
-        urls.append(t["sound"])
-    for u in [u.rstrip("/") for u in urls]:
-        if u in seen: continue
-        seen.add(u)
+def posted(u):
+    """TikTok video ids carry their upload time in the top 32 bits."""
+    m = re.search(r"tiktok\.com/@([^/]+)/video/(\d+)", u)
+    if not m: return ""
+    d = datetime.datetime.fromtimestamp(int(m.group(2)) >> 32, datetime.UTC).date()
+    return f" · @{m.group(1)}, {d.day} {d:%b %Y}"
+
+
+def links(t):
+    out = []
+    for u in t["examples"]:
         kind = "Sound" if "/music/" in u or "/audio/" in u else "Example"
-        out.append(f'<a href="{e(u)}" target="_blank" rel="noopener">{kind} · {e(host(u))}</a>')
-    q = urllib.parse.quote(t["name"].split("(")[0].strip())
+        out.append(f'<a href="{e(u)}" target="_blank" rel="noopener">{kind} · {e(host(u))}{e(posted(u))}</a>')
+    q = urllib.parse.quote(re.sub(r"[(:\"'“”‘’…].*$", "", t["name"]).strip() or t["name"])
     out.append(f'<a href="https://www.tiktok.com/search?q={q}" target="_blank" rel="noopener">Search TikTok</a>')
-    if any("insta" in p.lower() for p in t["platforms"]):
+    if "Instagram" in t["platforms"]:
         out.append(f'<a href="https://www.instagram.com/explore/search/keyword/?q={q}" target="_blank" rel="noopener">Search Instagram</a>')
     return "".join(out)
 
@@ -36,24 +38,27 @@ def links(t, shot):
 cards = []
 for i, t in enumerate(trends, 1):
     shot = shots.get(str(i))
-    img = (f'<figure><img src="img/{i}.jpg?v={monday}" alt="Example of {e(t["name"])}" loading="lazy">'
-           f'<figcaption>{"Example post" if shot["kind"] != "source" else "From the source write-up"} · '
-           f'<a href="{e(shot["url"])}" target="_blank" rel="noopener">{e(host(shot["url"]))}</a></figcaption></figure>'
-           if shot else f'<figure class="noimg"><span>{e(t["name"])}</span></figure>')
-    sound = "" if not t.get("sound") or str(t["sound"]).startswith("http") else f'<p><b>Sound</b>{e(t["sound"])}</p>'
+    if shot and shot["kind"] == "ai":
+        cap = f'<span class="ai">AI-generated illustration</span> · no example post could be captured ({e(shot["model"])})'
+    elif shot:
+        cap = f'Example post · <a href="{e(shot["url"])}" target="_blank" rel="noopener">{e(host(shot["url"]))}{e(posted(shot["url"]))}</a>'
+    img = (f'<figure><img src="img/{i}.jpg?v={today}" alt="{"AI illustration" if shot["kind"] == "ai" else "Example post"} for {e(t["name"])}" loading="lazy">'
+           f'<figcaption>{cap}</figcaption></figure>' if shot else f'<figure class="noimg"><span>{e(t["name"])}</span></figure>')
+    sound = f'<p><b>Sound</b>{e(t["sound"])}</p>' if t.get("sound") else ""
     risk = f'<p class="risk"><b>Watch out</b>{e(t["risk"])}</p>' if t.get("risk") else ""
     srcs = " ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(host(u))}</a>' for u in t["sources"])
     cards.append(f"""
 <article class="trend" id="t{i}">
   {img}
   <div class="body">
-    <div class="meta"><span class="num">{i:02d}</span>{"".join(f'<span class="tag">{e(p)}</span>' for p in t["platforms"])}</div>
+    <div class="meta"><span class="num">{i:02d}</span><span class="status {STATUS.get(t["status"], "flat")}">{e(t["status"])}</span>{"".join(f'<span class="tag">{e(p)}</span>' for p in t["platforms"])}</div>
     <h2>{e(t["name"])}</h2>
+    <p class="peakline"><b>Peak</b>{e(t["peak"])}</p>
     <p class="what">{e(t["what"])}</p>
-    <div class="facts"><p><b>Format</b>{e(t["format"])}</p>{sound}<p><b>Why now</b>{e(t["why_now"])}</p></div>
+    <div class="facts"><p><b>Format</b>{e(t["format"])}</p>{sound}<p><b>Why now</b>{e(t["why_now"])}</p><p><b>Timeline</b>{e(t["timeline"])}</p></div>
     <div class="use"><b>How a brand could use it</b><p>{e(t["brand_use"])}</p><p class="brief">{e(t["example_brief"])}</p></div>
     {risk}
-    <nav class="links">{links(t, shot)}</nav>
+    <nav class="links">{links(t)}</nav>
     <p class="src">Sources: {srcs}</p>
   </div>
 </article>""")
@@ -75,7 +80,7 @@ a{{color:inherit}}
 header{{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:22px 48px}}
 .mark{{grid-column:2;font:600 44px/1 Oswald,"Inter Tight",sans-serif;color:var(--hot);letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:8px}}
 .mark i{{width:26px;height:26px;border-radius:50% 50% 50% 8%;background:var(--hot);display:inline-block}}
-.mono,header nav a,.tag,.num,figcaption,.links a,.src{{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;font-size:11.5px}}
+.mono,header nav a,.tag,.num,.status,figcaption,.links a,.src{{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;font-size:11.5px}}
 header nav{{justify-self:end;display:flex;gap:20px}}
 header nav a{{color:var(--hot);text-underline-offset:3px}}
 .intro{{padding:40px 64px 8px;max-width:980px}}
@@ -96,6 +101,12 @@ figcaption{{margin-top:10px;color:var(--muted)}}
 .meta{{display:flex;gap:8px;align-items:center;flex-wrap:wrap}}
 .num{{color:var(--red);font-size:13px;margin-right:6px}}
 .tag{{border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--bg)}}
+.status{{border-radius:999px;padding:4px 10px;color:#fff;background:var(--muted)}}
+.status.rise{{background:#1f7a4d}} .status.peak{{background:var(--red)}} .status.fade{{background:#8a8580}}
+.peakline{{font-size:17px;font-weight:500;margin:-4px 0 14px}}
+.peakline b{{font:500 11.5px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--red);margin-right:10px}}
+.ai{{color:var(--red)}}
+.intro .legend{{font-size:11.5px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;color:var(--muted);margin-top:18px}}
 h2{{font:800 clamp(30px,4vw,52px)/1 "Inter Tight";letter-spacing:-.035em;margin:16px 0 14px}}
 .what{{font-size:20px;color:var(--soft);max-width:60ch}}
 .facts{{display:grid;gap:10px;margin:22px 0;padding:18px 0;border-block:1px solid var(--line)}}
@@ -122,13 +133,15 @@ footer{{padding:40px 64px 56px;border-top:1px solid var(--line);color:var(--mute
 <section class="intro">
   <p class="mono">Social trend report · Week of {wk}</p>
   <h1>{len(trends)} trends brands can <span>actually use</span> this week.</h1>
-  <p>What's moving on TikTok, Instagram Reels and YouTube Shorts right now. We only kept trends a brand or client could plausibly run, and each one comes with examples and a suggested way in.</p>
+  <p>What's moving on TikTok and Instagram Reels right now, with when each trend peaked, examples and a suggested way in for brands. Only trends a brand or client could plausibly run made the list.</p>
+  <p class="legend mono"><span class="status rise">Rising</span> still climbing, get in early <span class="status peak">Peaking</span> at its height now <span class="status fade">Past peak</span> post this week or skip <span class="status">Steady</span> evergreen</p>
 </section>
 <nav class="index">{"".join(f'<a href="#t{i}">{i:02d} {e(t["name"])}</a>' for i, t in enumerate(trends, 1))}</nav>
 <main>{"".join(cards)}</main>
 <footer id="how">
   <p class="mono">How this works</p>
-  <p>Each Monday, trend round-ups from New Engen, Later, SocialPilot, Gelato, Ramdam and others are read and merged into one list. Anything stale or hard to use for a brand is dropped. Example posts link to the original creators, and screenshots are there for reference only.</p>
+  <p>Each Monday, the latest round-ups from New Engen, Later, SocialPilot, SocialBee, Ramdam and others are cross-checked against each other and against live TikTok sound pages. Anything stale or hard to use for a brand is dropped. Peak dates come from the round-ups' own dates, sound-stage data and the upload dates of example posts.</p>
+  <p>Example images are the cover frames of the linked posts, shown for reference only. Where no example post could be captured, the image is an AI-generated illustration and labelled as one.</p>
   <p>The descriptions and brand ideas are a starting point. Check a trend's sound and licensing before using it on a brand account.</p>
   <p class="mono">Compiled {today.day} {today:%B %Y}</p>
 </footer>
@@ -137,5 +150,5 @@ footer{{padding:40px 64px 56px;border-top:1px solid var(--line);color:var(--mute
 """
 (ROOT / "index.html").write_text(page, "utf-8")
 (ROOT / "data/weeks").mkdir(exist_ok=True)
-shutil.copy(ROOT / "data/trends.draft.json", ROOT / f"data/weeks/{monday}.json")
+shutil.copy(ROOT / "data/trends.json", ROOT / f"data/weeks/{monday}.json")
 print("built", len(trends), "trends")
