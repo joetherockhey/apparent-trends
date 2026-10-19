@@ -1,0 +1,75 @@
+{
+ "model": "gemini-3.5-flash",
+ "items": [
+  {
+   "name": "Message from A",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators receive a fake anonymous text message signed 'A' that humorously exposes a relatable or slightly embarrassing daily habit while they perform that action on screen.",
+   "format": "Text-on-screen overlay on daily routine video",
+   "sound": null,
+   "examples": [
+    "https://www.tiktok.com/@raphaeldelage/video/7687321945636867361"
+   ],
+   "dated": "octobre 2026",
+   "source": "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026"
+  },
+  {
+   "name": "WTF is\u2026",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators write 'wtf is...' on screen to feign ignorance about a popular concept or trend, while showing their own alternative choice as the response.",
+   "format": "Text hook over demonstration video",
+   "sound": null,
+   "examples": [
+    "https://www.tiktok.com/@oumsgh/video/7683923564478663968"
+   ],
+   "dated": "octobre 2026",
+   "source": "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026"
+  },
+  {
+   "name": "Can I try your\u2026",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Two friends ask 'Can I try yours?' and swap products like drinks or beauty items to capture genuine, spontaneous reactions.",
+   "format": "Product exchange and reaction test video",
+   "sound": null,
+   "examples": [
+    "https://www.tiktok.com/@artthuroficial_/video/7682563940865363220"
+   ],
+   "dated": "octobre 2026",
+   "source": "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026"
+  },
+  {
+   "name": "Some people call me\u2026",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators hook viewers with a nickname or inside joke about themselves, then explain the unique habit or product benefit behind that label.",
+   "format": "Text hook with talking head and product showcase",
+   "sound": null,
+   "examples": [
+    "https://www.tiktok.com/@sxphie.briggs/video/7692101974086421782"
+   ],
+   "dated": "octobre 2026",
+   "source": "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026"
+  },
+  {
+   "name": "Things you should definitely ghost",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "In a Halloween-themed format, creators dress up as ghosts holding signboards listing common industry mistakes or bad habits to avoid, finishing with the proper solution.",
+   "format": "Skit with signboards in ghost costume",
+   "sound": null,
+   "examples": [
+    "https://www.tiktok.com/@vanitythesalon/video/7692581960174112030"
+   ],
+   "dated": "octobre 2026",
+   "source": "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026"
+  }
+ ]
+}

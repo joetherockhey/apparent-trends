@@ -1,0 +1,221 @@
+{
+ "model": "gemini-3.6-flash",
+ "items": [
+  {
+   "name": "Two Fishes",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators lip-sync audio from Love Island USA contestant Corbin Mims to defend questionable or illogical opinions with complete confidence and serious gestures.",
+   "format": "lip-sync video with text overlay",
+   "sound": "Corbin Mims / CorbinGPT Love Island USA audio",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Ramalama Costume Walk",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators film from a low camera angle focusing on their feet as they walk toward the camera before gradually revealing their full Halloween costume.",
+   "format": "low-angle reveal video",
+   "sound": "Ramalama (Bang Bang) by R\u00f3is\u00edn Murphy",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Pumpkin Head Illusion",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "One person holds a pumpkin close to the camera while another stands further back to create a forced-perspective illusion that their head is a pumpkin while dancing.",
+   "format": "forced perspective video",
+   "sound": "spooky remix featuring 'it's just a bunch of hocus pocus'",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Be OK",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators dance cheerfully to an upbeat song while text on screen reveals frustrating or embarrassing everyday situations they are not actually okay about.",
+   "format": "dance video with text overlay",
+   "sound": "Be OK by Ingrid Michaelson",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Patient Zero Wedding Day",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators pair romantic clips from their wedding day with Taylor Swift's song, building up to its line about wearing white.",
+   "format": "cinematic wedding montage",
+   "sound": "Patient Zero by Taylor Swift",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Stop the Wedding",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators share photo carousels starting with 'Stop the wedding, but...' to reveal funny wedding-day regrets, awkward moments, or personal reflections.",
+   "format": "photo carousel",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Fan Transition",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators film themselves lying down while a fan-blade editing transition sweeps across the screen to seamlessly change their outfit.",
+   "format": "overhead transition video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Answer in One Word",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators ask ChatGPT, friends, or family members to answer personal or revealing questions using only a single word.",
+   "format": "text / screen recording video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Pray For Me Slow Mo",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Groups of friends take turns making exaggerated, cinematic slow-motion entrances into the frame as if in an action movie scene.",
+   "format": "slow-motion group video",
+   "sound": "Pray For Me by The Weeknd and Kendrick Lamar",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Shaving Cream Prank Reveal",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "A parent sets up a shaving cream prank with their child but backs out at the last second, resulting in a funny and surprised reaction.",
+   "format": "prank / reaction video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "We Fell in Love in October",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators use this sound for cozy autumn outfit checks, pumpkin patch trips, seasonal baking, and fall aesthetic montages.",
+   "format": "seasonal montage video",
+   "sound": "We Fell in Love in October by girl in red",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "Nicole Kidman",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators use this track for dramatic outfit transitions, glamorous reveals, makeup transformations, and confident main-character moments.",
+   "format": "transition / reveal video",
+   "sound": "Nicole Kidman by AD\u00c9LA",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "The Feeling",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators pair this song with soft-focus lifestyle montages, romantic memories, late-night drives, and aesthetic edits.",
+   "format": "aesthetic montage video",
+   "sound": "The Feeling by Steve Lacy",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "POP",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators use this energetic sound for fast-cut edits, bold outfit showcases, sports highlights, gym videos, and high-impact transitions.",
+   "format": "fast-cut edit video",
+   "sound": "POP by Lil Uzi Vert",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "#tiktokscaryhorrorcontest",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators share Halloween makeup transformations, creepy short films, jump-scare edits, horror skits, and scary costumes under this contest hashtag.",
+   "format": "horror / transformation video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "#marvelrivalsavengers",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Gamers share Marvel Rivals gameplay highlights, character comparisons, funny in-game moments, and fan edits.",
+   "format": "gameplay / fan edit video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "#worldmentalhealthday",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators post personal mental health stories, emotional well-being reflections, self-care discussions, and coping strategies.",
+   "format": "talking head / storytelling video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  },
+  {
+   "name": "#hurricanemelissa",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Users post storm footage, weather forecast updates, preparation tips, firsthand accounts, and community recovery efforts during Hurricane Melissa.",
+   "format": "news / weather clip / vlog",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://newengen.com/insights/tiktok-trends/"
+  }
+ ]
+}

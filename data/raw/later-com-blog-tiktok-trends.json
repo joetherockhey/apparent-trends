@@ -1,0 +1,114 @@
+{
+ "model": "gemini-3.6-flash",
+ "items": [
+  {
+   "name": "My reaction",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators pick a topic from their niche and give their honest opinion or ranking using only facial expressions.",
+   "format": "facial expression video",
+   "sound": "https://www.tiktok.com/music/original-sound-7691077477585668877",
+   "examples": [],
+   "dated": "October 16, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Getting robbed",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators film a single-shot video of themselves glued to their phone while someone steals their bag in the background, showcasing what would distract them.",
+   "format": "one-shot video",
+   "sound": "https://www.tiktok.com/music/original-sound-hector-mort-7632980909465078550",
+   "examples": [],
+   "dated": "October 16, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "October is all about me",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators pair Drake's line 'October is all about me' with on-screen text and a simple video to highlight their main character energy.",
+   "format": "video with text overlay",
+   "sound": "https://www.tiktok.com/music/alkuper%C3%A4inen-%C3%A4%C3%A4ni-7687936449354402582",
+   "examples": [],
+   "dated": "October 16, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Text message from -A",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators share a text-on-screen hook that ends with '-A' paired with Pretty Little Liars audio to show that 'A' is watching.",
+   "format": "text on screen video",
+   "sound": "https://www.tiktok.com/t/ZP9DrMLsW3YsP-l9ZOk/",
+   "examples": [],
+   "dated": "October 02, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "I just want to be OK",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators appear carefree on screen while text overlay names something they are secretly spiraling or anxious about.",
+   "format": "video with text overlay",
+   "sound": "https://www.tiktok.com/music/Be-OK-6919908743442368513",
+   "examples": [],
+   "dated": "October 02, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Upside down",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators mouth lyrics and perform hand gestures before utilizing a transition to reveal a dramatic before-and-after.",
+   "format": "transition video",
+   "sound": "https://www.tiktok.com/music/sonido-original-7258973126944230149",
+   "examples": [],
+   "dated": "October 02, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Some people call me...",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators flip common nicknames into a sales pitch by starting with what people call them and ending on what they should be called for their specialty.",
+   "format": "wordplay video",
+   "sound": "https://www.tiktok.com/music/original-sound-7532902082660797206",
+   "examples": [],
+   "dated": "September 18, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Once a day, once a week, once a month",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators break down their habits, routines, or schedules into daily, weekly, and monthly timeframes.",
+   "format": "list video",
+   "sound": null,
+   "examples": [],
+   "dated": "September 18, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  },
+  {
+   "name": "Manifesting",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "what": "Creators overlay visuals of their dream life with Dua Lipa's 'Training Season' to express positive goals and intentions.",
+   "format": "visual montage",
+   "sound": "https://www.tiktok.com/music/Training-Season-Live-from-the-Royal-Albert-Hall-7445345666976631558",
+   "examples": [],
+   "dated": "September 18, 2026",
+   "source": "https://later.com/blog/tiktok-trends/"
+  }
+ ]
+}

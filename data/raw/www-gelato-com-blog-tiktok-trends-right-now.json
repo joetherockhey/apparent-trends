@@ -1,0 +1,119 @@
+{
+ "model": "gemini-3.5-flash",
+ "items": [
+  {
+   "name": "\"Oops, wrong way\" trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators start with a video overlaid with text about a random opinion, then 'accidentally' flip the camera to reveal themselves poking fun at how the opinion benefits them.",
+   "format": "POV video",
+   "sound": "dramatic or humorous music",
+   "examples": [
+    "https://www.tiktok.com/t/ZP8LUSoPv/"
+   ],
+   "dated": "November 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "\"Time for the Holidays\" trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Users share videos celebrating the upcoming holiday season through decorating, baking, gift-wrapping, and festive family moments.",
+   "format": "lifestyle video",
+   "sound": "festive music",
+   "examples": [
+    "https://www.tiktok/@annaxsitar/video/7432394703028391210?_r=1&_t=8r2UEM4koS1"
+   ],
+   "dated": "November 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "\"I'm still Gibby\" trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators use an audio clip of the character Gibby from iCarly to make light of personal quirks or contradictory facts about themselves.",
+   "format": "lip-sync video",
+   "sound": "Gibby audio clip from iCarly",
+   "examples": [
+    "https://www.tiktok.com/t/ZP8LUQLB9/"
+   ],
+   "dated": "November 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "Suspect trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators jog in slow motion next to a friend or family member while playfully calling out 'suspect is...' followed by a funny, hyper-specific description.",
+   "format": "slow-motion video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "Subtle foreshadowing trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators incorporate small, seemingly unimportant details early in a video that later serve as hints or foreshadow a plot twist.",
+   "format": "storytelling video",
+   "sound": null,
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "\"In da klurb, we all fam\" trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators repurpose a line from Broad City to highlight feelings of togetherness and community in unexpected, everyday settings.",
+   "format": "video",
+   "sound": "In da klurb, we all fam sound from Broad City",
+   "examples": [],
+   "dated": "October 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "Perfect pitch challenge trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Users test their vocal abilities by trying to hit precise musical notes, often adding self-deprecating captions about their singing skills.",
+   "format": "vocal challenge video",
+   "sound": null,
+   "examples": [],
+   "dated": "September 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "Gen Z marketing trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators parody Gen Z marketing styles by making mock ads full of trendy slang, emojis, and comically abrupt edits.",
+   "format": "mock commercial video",
+   "sound": null,
+   "examples": [],
+   "dated": "September 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  },
+  {
+   "name": "\"No, I'm speaking\" trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators lip-sync to audio asserting themselves during interruptions, paired with text overlays showing situations where they stand their ground.",
+   "format": "lip-sync video",
+   "sound": "No, I'm speaking audio clip",
+   "examples": [],
+   "dated": "September 2026",
+   "source": "https://www.gelato.com/blog/tiktok-trends-right-now"
+  }
+ ]
+}

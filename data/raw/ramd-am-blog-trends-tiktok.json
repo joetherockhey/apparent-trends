@@ -1,0 +1,64 @@
+{
+ "model": "gemini-3.5-flash",
+ "items": [
+  {
+   "name": "The \u201cNot a perfect person\u201d trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators share an embarrassing habit, awkward mistake, or old routine, using text overlay and acting out the lyric \"I'm not a perfect person\" as a humorous self-callout or confession.",
+   "format": "short video with text overlay",
+   "sound": "original sound - \ud806\udcf2sydney",
+   "examples": [
+    "https://www.tiktok.com/@lillianasabag/video/7690700880114404621",
+    "https://www.tiktok.com/@sickofya11/video/7689241795015789837"
+   ],
+   "dated": "13 Oct 2026",
+   "source": "https://ramd.am/blog/trends-tiktok"
+  },
+  {
+   "name": "The \u201cWeirdly pretty\u201d trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Creators compile random, candid, or ordinary camera-roll photos that turned out unexpectedly great, opening with the text overlay \"Photos I feel weirdly pretty in\".",
+   "format": "photo carousel / slideshow",
+   "sound": "\u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0437\u0432\u0443\u043a - 7057573777705995010",
+   "examples": [
+    "https://www.tiktok.com/@nailsby.miriam/photo/7666599941522918677?q=photos%20i%20feel%20weirdly%20pretty%20in&t=1791361203073"
+   ],
+   "dated": "13 Oct 2026",
+   "source": "https://ramd.am/blog/trends-tiktok"
+  },
+  {
+   "name": "The \u201cOh look\u201d trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "A couple or duo acts out a skit reacting with dramatic panic to a stressful scenario (\"Oh look...\"), then instantly switching to complete calm when presented with an easier solution or app alternative.",
+   "format": "short skit video",
+   "sound": "sonido original - user077983456",
+   "examples": [
+    "https://www.tiktok.com/@sophia.sadolin/video/7687602399929765142",
+    "https://www.tiktok.com/@rowan.chapman1/video/7687326560625397005"
+   ],
+   "dated": "5 Oct 2026",
+   "source": "https://ramd.am/blog/trends-tiktok"
+  },
+  {
+   "name": "The \u201c-A texted me\u201d trend",
+   "platforms": [
+    "TikTok"
+   ],
+   "what": "Referencing Pretty Little Liars, creators write text overlays exposing a specific secret habit or clever shortcut they use, signing off with \"- A\" as if someone is watching them.",
+   "format": "short video with text overlay",
+   "sound": "pll purposes only ty - demi devito",
+   "examples": [
+    "https://www.tiktok.com/@nia.lavine/video/7687395619169717534",
+    "https://www.tiktok.com/@xplamedi/video/7687334244154101024"
+   ],
+   "dated": "5 Oct 2026",
+   "source": "https://ramd.am/blog/trends-tiktok"
+  }
+ ]
+}
