@@ -1,0 +1,144 @@
+[
+ {
+  "n": 16,
+  "name": "Money can't buy happiness, but...",
+  "platforms": ["Instagram", "TikTok"],
+  "status": "Peaking",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "Original audio, eresdigna (Instagram); on TikTok 'suara asli', Nadora | Cycling Journal",
+  "sound_url": "https://www.instagram.com/reels/audio/25300087489600407/",
+  "what": "On-screen text reads 'Money can't buy happiness, but it can buy...' over a short clip of the thing that obviously makes you happy.",
+  "origin": "The Instagram audio comes from an eresdigna reel posted 25 Nov 2025; the text format took off on it from September 2026.",
+  "usage": "316K Instagram reels on the audio and 18.1K TikTok videos on the main TikTok sound (20 Oct 2026); top reel 4.8M views",
+  "usage_n": 334100,
+  "brand_use": "A product shot with a punchline: 'but it can buy' then the hero product or a customer's reaction. Works for retail, food, beauty and experiences.",
+  "risk": "It reads as an ad, so the reveal has to be genuinely appealing.",
+  "examples": [
+   {"url": "https://www.instagram.com/reel/DRfRF1MiJoY/", "plays": 4800000, "likes": 503000, "audio_verified": true, "note": "origin of the audio and top reel on it (eresdigna, 25 Nov 2025)"},
+   {"url": "https://www.tiktok.com/@blanca.dolll/video/7686882706029890830", "plays": 2000000, "likes": 230400, "audio_verified": true, "note": "top TikTok on the sound (curly hair product, 18 Sep 2026)"},
+   {"url": "https://www.tiktok.com/@xemmakate/video/7689160080176041238", "plays": 635500, "likes": 84200, "audio_verified": true, "note": "'best purchase I've ever made' skis (24 Sep 2026)"}
+  ],
+  "sources": [
+   "https://www.instagram.com/reels/audio/25300087489600407/",
+   "https://www.tiktok.com/music/suara-asli-Nadora-Cycling-Journal-7685941777056647943",
+   "https://later.com/blog/instagram-reels-trends/",
+   "https://www.socialpilot.co/blog/instagram-reels-trends"
+  ],
+  "weak": false,
+  "notes": "Instagram reel count is lifetime for the eresdigna audio, so not every reel is this text format. The eresdigna origin reel caption is just '.', so I couldn't confirm from text that it shows the 'but it can buy' line. The TikTok sound is a different clip; captions on it (cosynewbuild, bukii_makeup, stayinginstudio) confirm it carries the trend. Old example @arabellajewelry did not use either sound (it uses a stock jingle) and was dropped. Brand posts on TikTok: Fat Hippo burgers did it on its own original sound (151.7K plays)."
+ },
+ {
+  "n": 17,
+  "name": "Pray For Me slow-mo entrance",
+  "platforms": ["TikTok"],
+  "status": "Rising",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "pray for me slo mo, lesgetitrell (slowed edit of Pray For Me, The Weeknd and Kendrick Lamar)",
+  "sound_url": "https://www.tiktok.com/music/pray-for-me-slo-mo-6866567781219846918",
+  "what": "Friends run or walk into frame one at a time in exaggerated slow motion, with dramatic faces and poses, timed to the slowed beat.",
+  "origin": "Dancer @lesgetitrell made the slowed sound and slow-mo routine on 30 Aug 2020; it resurfaced as a group trend in October 2026.",
+  "usage": "34.4K TikTok videos on the sound (20 Oct 2026); top post 38M views, top Oct 2026 post 4.2M views",
+  "usage_n": 34400,
+  "brand_use": "Staff take turns making slow-mo hero entrances into the store, kitchen or office. Good for launch days or team culture posts.",
+  "risk": "Built on a major-label track, so it may be unavailable to business accounts; use a creator partner.",
+  "examples": [
+   {"url": "https://www.tiktok.com/@lesgetitrell/video/6866606450672798982", "plays": 14500000, "likes": 2700000, "audio_verified": true, "note": "origin (30 Aug 2020)"},
+   {"url": "https://www.tiktok.com/@kemanirae_/video/7696933942196325635", "plays": 4200000, "likes": 998500, "audio_verified": true, "note": "top October 2026 group version (15 Oct 2026)"},
+   {"url": "https://www.tiktok.com/@nadineeang/video/7696384429236751629", "plays": 2900000, "likes": 630100, "audio_verified": true, "note": "group version crediting lesgetitrell (14 Oct 2026)"}
+  ],
+  "sources": [
+   "https://www.tiktok.com/music/pray-for-me-slo-mo-6866567781219846918",
+   "https://newengen.com/insights/tiktok-trends/",
+   "https://www.tiktok.com/@lesgetitrell/video/6866606450672798982"
+  ],
+  "weak": false,
+  "notes": "Most-viewed post on the sound is @reboir (38M plays, 7.2M likes, Dec 2022), an older solo use, so the origin is listed first instead. Other Oct 2026 hits: @danya..119 1.5M plays / 226.5K likes, @kennedy_mil18 1.5M / 277.4K. The 34.4K count is lifetime since 2020; the October 2026 wave is a fraction of it but growing fast."
+ },
+ {
+  "n": 18,
+  "name": "we fell in love in october",
+  "platforms": ["TikTok", "Instagram"],
+  "status": "Peaking",
+  "longevity": "seasonal",
+  "ends": "31 Oct 2026",
+  "sound": "we fell in love in october, girl in red",
+  "sound_url": "https://www.tiktok.com/music/we-fell-in-love-in-october-6711980022204205826",
+  "what": "Soft autumn montages set to the song: cosy outfits, baking, pumpkins, coffee, pets and slow afternoons.",
+  "origin": "girl in red released the song in 2018; it returns as the go-to October sound every year.",
+  "usage": "2.1M TikTok videos and 1M Instagram reels on the sound (20 Oct 2026); top Oct 2026 post 45.4M views",
+  "usage_n": 3100000,
+  "brand_use": "A cafe or homewares brand can cut a mood piece of its seasonal range. In Australia, flip it to spring: jacarandas, iced coffee, first swims.",
+  "risk": "The autumn look is northern hemisphere, so localise it for spring.",
+  "examples": [
+   {"url": "https://www.tiktok.com/@kittyelliss/video/7694021995192798497", "plays": 45400000, "likes": 4400000, "audio_verified": true, "note": "top post on the sound (7 Oct 2026)"},
+   {"url": "https://www.tiktok.com/@theemilyrangel/video/7663597162609118478", "plays": 19400000, "likes": 1300000, "audio_verified": true, "note": "pumpkin sourdough bake, food angle (17 Jul 2026)"},
+   {"url": "https://www.tiktok.com/@usergaqvaw7yl8/video/7695060105418575125", "plays": 3900000, "likes": 1300000, "audio_verified": true, "note": "October aesthetic montage (10 Oct 2026)"}
+  ],
+  "sources": [
+   "https://www.tiktok.com/music/we-fell-in-love-in-october-6711980022204205826",
+   "https://www.instagram.com/reels/audio/948410245353374/",
+   "https://www.socialpilot.co/blog/instagram-reels-trends",
+   "https://newengen.com/insights/tiktok-trends/"
+  ],
+  "weak": false,
+  "notes": "Counts are lifetime for the sound (it gets reused every year), not just 2026. New Engen (14 Oct 2026) cites it as #1 on MusicMaestro's US TikTok trending sounds chart for week 40. Major-label track, may be restricted for business accounts."
+ },
+ {
+  "n": 19,
+  "name": "Goo Goo Muck Halloween reels",
+  "platforms": ["Instagram", "TikTok"],
+  "status": "Peaking",
+  "longevity": "seasonal",
+  "ends": "31 Oct 2026",
+  "sound": "Goo Goo Muck, The Cramps",
+  "sound_url": "https://www.tiktok.com/music/Goo-Goo-Muck-6926414920577878018",
+  "what": "Spooky clips cut to the beat: bedsheet ghost photoshoots, Halloween decor and props, and costume shots.",
+  "origin": "The Cramps song (1981) went viral with the Wednesday Addams dance from Netflix's Wednesday in late 2022 and now returns every Halloween.",
+  "usage": "316K Instagram reels and 204.2K TikTok videos on the sound (20 Oct 2026, lifetime); top Oct 2026 reel 347K views",
+  "usage_n": 520200,
+  "brand_use": "Put the team under bedsheets for a ghost photoshoot in the store or office, cut to the beat. Easy for salons, bars and retail.",
+  "risk": "Major-label track, restricted for business accounts, so use a creator partner.",
+  "examples": [
+   {"url": "https://www.instagram.com/reel/DdyzKR4TlbC/", "plays": 347000, "likes": 21000, "audio_verified": true, "note": "top recent reel on the audio, ghost photoshoot (27 Sep 2026)"},
+   {"url": "https://www.instagram.com/reel/Dd9PK0aAY4a/", "plays": 218000, "likes": 9706, "audio_verified": true, "note": "Halloween cartoon montage (1 Oct 2026)"},
+   {"url": "https://www.instagram.com/reel/Dd8bOSMqfKk/", "plays": 131000, "likes": 3146, "audio_verified": true, "note": "hair salon brand use, 'spooky habits' (1 Oct 2026)"}
+  ],
+  "sources": [
+   "https://www.instagram.com/reels/audio/248340945718949/",
+   "https://www.tiktok.com/music/Goo-Goo-Muck-6926414920577878018",
+   "https://www.socialpilot.co/blog/instagram-reels-trends"
+  ],
+  "weak": false,
+  "notes": "SocialPilot frames it as 'POV: your Halloween decoration is alive', but the top 2026 reels on the audio are ghost photoshoots and Halloween montages; I found no big 'decoration comes alive' post, so I renamed it. Counts are lifetime and include the 2022 Wednesday dance wave. This year's posts are modest (best ~21K likes). TikTok 2026 posts on the official sound were small (e.g. @buttercranecentre office ghost shoot, 1.6K plays); bigger TikToks use lyric edits on other 'original sound' uploads, so they were excluded. Plays for Instagram are the view counts shown on the audio page."
+ },
+ {
+  "n": 20,
+  "name": "The Process (process to result)",
+  "platforms": ["Instagram"],
+  "status": "Steady",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "Original audio, its_drfarah",
+  "sound_url": "https://www.instagram.com/reels/audio/27554386410835342/",
+  "what": "A quick step-by-step of the tools, materials and work behind something, ending on the finished result.",
+  "origin": "Original audio from Instagram creator @its_drfarah; Later listed the format on 18 Sep 2026. Original reel not found.",
+  "usage": "43K Instagram reels on the audio (20 Oct 2026); top reel 138K views",
+  "usage_n": 43000,
+  "brand_use": "Show the making of something: a campaign shoot, a hand-finished product, a dish. Original audio, so it is safe for business accounts.",
+  "risk": null,
+  "examples": [
+   {"url": "https://www.instagram.com/reel/Dduiuq4q4Ii/", "plays": 87700, "likes": 2843, "audio_verified": true, "note": "makeup artist process to result, second most-viewed reel (25 Sep 2026)"},
+   {"url": "https://www.instagram.com/reel/Ddq8zd5tZ4E/", "plays": 19900, "likes": 445, "audio_verified": true, "note": "poster design process for the Broncos (24 Sep 2026)"},
+   {"url": "https://www.instagram.com/reel/Dd9KVeaxMJq/", "plays": 15500, "likes": 391, "audio_verified": true, "note": "paid knitting process post, brand use (1 Oct 2026)"}
+  ],
+  "sources": [
+   "https://www.instagram.com/reels/audio/27554386410835342/",
+   "https://later.com/blog/instagram-reels-trends/",
+   "https://www.socialpilot.co/blog/instagram-reels-trends"
+  ],
+  "weak": false,
+  "notes": "Decent volume but no big posts: the top reel (@jieminart, 138K views, a running recap rather than a process video) has hidden likes, and the rest are under 100K views. Mainly a small-business format. No TikTok version found. The original its_drfarah reel isn't among their recent posts."
+ }
+]

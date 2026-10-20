@@ -19,7 +19,7 @@ STYLE = ("vertical 9:16 smartphone video still, natural light, candid social med
 for n, t in enumerate(trends, 1):
     if shots.get(str(n)):
         continue
-    prompt = f"{t['what']} Scene idea: {t['example_brief']} {STYLE}"
+    prompt = f"{t['what']} Scene idea: {t['brand_use']} {STYLE}"
     body = json.dumps({"prompt": prompt, "steps": 8}).encode()
     req = urllib.request.Request(
         f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT}/ai/run/@cf/black-forest-labs/flux-1-schnell",

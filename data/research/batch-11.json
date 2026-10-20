@@ -1,0 +1,144 @@
+[
+ {
+  "n": 11,
+  "name": "Preparing for my Netflix documentary",
+  "platforms": ["TikTok", "Instagram"],
+  "status": "Past peak",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "On a Mission, Duomo",
+  "sound_url": "https://www.tiktok.com/music/On-a-Mission-7274043399086426113",
+  "what": "Creator mimes clipping on a lapel mic and sits in an interview chair while on-screen text frames a petty or awkward life event as their Netflix documentary.",
+  "origin": "Started by TikTok creator @borderbandittx on 16 Jun 2026; posts by @fombasyllah and @wassupa1ex on 30 Jun took it viral.",
+  "usage": "438.7K TikTok videos on the sound (20 Oct 2026); top post 35.7M views, 5.7M likes. Anijam says it crossed to Instagram in Oct 2026 (no reel count).",
+  "usage_n": 438700,
+  "brand_use": "Frame a small brand drama as a documentary premise, e.g. 'Preparing for my Netflix documentary about the day we ran out of croissants by 7am.'",
+  "risk": "Avoid Netflix logos or the Netflix sting; keep the parody generic.",
+  "examples": [
+   {"url": "https://www.tiktok.com/@suckafreekells/video/7657722881215958303", "plays": 35700000, "likes": 5700000, "audio_verified": true, "note": "top post, 2 Jul 2026"},
+   {"url": "https://www.tiktok.com/@borderbandittx/video/7652140053812022559", "plays": 3900000, "likes": 420000, "audio_verified": true, "note": "origin, 16 Jun 2026"},
+   {"url": "https://www.tiktok.com/@fombasyllah/video/7657203514673876246", "plays": 21700000, "likes": 3600000, "audio_verified": true, "note": "early viral post, 30 Jun 2026"}
+  ],
+  "sources": [
+   "https://knowyourmeme.com/memes/preparing-for-my-netflix-documentary",
+   "https://www.ypulse.com/article/2026/07/10/gen-zs-netflix-documentary-on-the-viral-list/",
+   "https://www.tiktok.com/music/On-a-Mission-7274043399086426113",
+   "https://www.anijam.ai/blog/instagram-reels-trends/"
+  ],
+  "weak": false,
+  "notes": "TikTok peaked Jun to Jul 2026; Instagram is the live second wave. Biggest IG post found: jnessa.r, 509K likes, 7 Jul 2026 (https://www.instagram.com/reel/DagSMXqvuGI/), audio not checkable on IG. Old example Dynamite Clothing used an original sound, not On a Mission (55.5K plays, 268 likes), so dropped. The old IG example sherlinanym has 25K likes."
+ },
+ {
+  "n": 12,
+  "name": "Things you should definitely ghost",
+  "platforms": ["TikTok"],
+  "status": "Peaking",
+  "longevity": "seasonal",
+  "ends": "31 Oct 2026",
+  "sound": null,
+  "sound_url": null,
+  "what": "Someone in a bedsheet ghost costume holds up handwritten signs, one per shot, listing bad habits or myths in their field to 'ghost'.",
+  "origin": "No clear origin; brand and marketer accounts ran it for Halloween 2025 (e.g. AllThatMarketing, 11 Oct 2025; Curology) and it returned in Sep to Oct 2026.",
+  "usage": "No dominant sound; TikTok discover page shows a small cluster of mostly brand posts (20 Oct 2026). Biggest found: Curology, 1M views but 4.6K likes (Oct 2025).",
+  "usage_n": 100,
+  "brand_use": "A clinic's ghost holds signs reading 'skipping SPF', 'sleeping in makeup', 'DIY extractions', ending on 'book a skin check'.",
+  "risk": null,
+  "examples": [
+   {"url": "https://www.tiktok.com/@curology/video/7565537571502083341", "plays": 1000000, "likes": 4596, "audio_verified": false, "note": "biggest post found, Oct 2025; sound is 'Spooky Masquerade Halloween' (AF_Sounds)"},
+   {"url": "https://www.tiktok.com/@allthatmarketing/video/7560029993045282070", "plays": 54600, "likes": 436, "audio_verified": false, "note": "earliest found, 11 Oct 2025; generic Halloween original sound"},
+   {"url": "https://www.tiktok.com/@vanitythesalon/video/7692581960174112030", "plays": 7748, "likes": 275, "audio_verified": false, "note": "2026 brand version (salon), 3 Oct 2026"}
+  ],
+  "sources": [
+   "https://newengen.com/insights/halloween-tiktok-reels-trends/",
+   "https://www.takema-studio.com/marques/trends-tiktok-octobre-2026",
+   "https://www.tiktok.com/discover/things-you-should-definitely-ghost"
+  ],
+  "weak": true,
+  "notes": "Format trend with no shared audio, so audio_verified is false throughout (there is no trend sound to match). Almost every post is a brand or marketer account with under 1K likes; no creator-led viral post found. usage_n of 100 is a rough guess from the discover page, not a measured count. New Engen and Takema list it but give no numbers; Takema says no media has covered it yet. Dusk Australia example has 801 plays, 17 likes."
+ },
+ {
+  "n": 13,
+  "name": "GRWM loading 0% to 100%",
+  "platforms": ["TikTok", "Instagram"],
+  "status": "Rising",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "original sound, saff (@saffknight) on TikTok; Windows in Brazil (Sped Up) on Instagram",
+  "sound_url": "https://www.tiktok.com/music/original-sound-7692018714292112150",
+  "what": "A get-ready-with-me that starts at '0%' in robe and eye patches, with a loading percentage climbing each cut until the finished look at 100%.",
+  "origin": "TikTok creator @saffknight posted the first version with her original sound on 2 Oct 2026; Later listed the Instagram version the same day.",
+  "usage": "5,687 TikTok videos on the sound (20 Oct 2026), up from zero on 2 Oct; top post 8.2M views, 684K likes.",
+  "usage_n": 5687,
+  "brand_use": "Load a product build from 0% to 100%: a cafe plating its signature dish, or a detailer taking a muddy ute to showroom finish.",
+  "risk": null,
+  "examples": [
+   {"url": "https://www.tiktok.com/@stylewithbillie/video/7694589062732107028", "plays": 8200000, "likes": 683800, "audio_verified": true, "note": "top post, 9 Oct 2026"},
+   {"url": "https://www.tiktok.com/@saffknight/video/7692018708813729046", "plays": 409400, "likes": 32200, "audio_verified": true, "note": "origin, 2 Oct 2026"},
+   {"url": "https://www.tiktok.com/@kaynatt.m/video/7693880139179953440", "plays": 3600000, "likes": 407000, "audio_verified": true, "note": "high-engagement post, 7 Oct 2026"}
+  ],
+  "sources": [
+   "https://www.tiktok.com/music/original-sound-7692018714292112150",
+   "https://later.com/blog/instagram-reels-trends/",
+   "https://www.anijam.ai/blog/instagram-reels-trends/"
+  ],
+  "weak": false,
+  "notes": "Two audios: TikTok runs on saff's original sound; Later and Anijam name 'Windows in Brazil (Sped Up)' for Reels (https://www.instagram.com/reels/audio/1094115923496866/), but I could not load the IG audio page for a reel count. IG example raychen.lei, 65K likes, 2 Oct 2026 (https://www.instagram.com/reel/DeAmc__TMqX/). Old TikTok examples danaarose (4.5K likes) and imabbysigua (1.4K likes) do use the right sound but are small. Fast growth: 5.7K videos in 18 days."
+ },
+ {
+  "n": 14,
+  "name": "\"Let's…\" Sean O'Pry snap edit",
+  "platforms": ["TikTok", "Instagram"],
+  "status": "Peaking",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": "TRNDSTTR (Lucian Remix), Black Coast",
+  "sound_url": "https://www.tiktok.com/music/trndsttr-7588947022003374856",
+  "what": "Creator lies deadpan or asleep through dull prompts ('Let's play Fortnite'), then their favourite thing is named and it cuts to the Sean O'Pry finger-snap edit.",
+  "origin": "@.fwmatu's Sean O'Pry edit (a 2015 Paco Rabanne ad) on 9 Sep 2026 started it; the 'Let's…' skit version took off on TikTok in late Sep 2026.",
+  "usage": "24.9K TikTok videos on the main sound plus 5,777 on @.fwmatu's original (20 Oct 2026); top skit 22.9M views, 4.3M likes.",
+  "usage_n": 30700,
+  "brand_use": "'Let's meal prep' gets nothing, 'Let's go to the gym' gets nothing, 'Let's get [brand] gelato' gets the full snap edit.",
+  "risk": "The edit uses footage of a real model from a Paco Rabanne ad; brands should restage the hype half rather than use that clip.",
+  "examples": [
+   {"url": "https://www.tiktok.com/@zhcyt/video/7695155140168338719", "plays": 22900000, "likes": 4300000, "audio_verified": true, "note": "top 'Let's' skit post, 10 Oct 2026 (ZHC, 'I failed history')"},
+   {"url": "https://www.tiktok.com/@notfromco/video/7689971717946576141", "plays": 14500000, "likes": 2400000, "audio_verified": true, "note": "'Lets play Fortnite' vs Roblox horror games, 26 Sep 2026"},
+   {"url": "https://www.tiktok.com/@.fwmatu/video/7683476721953230102", "plays": 22700000, "likes": 5200000, "audio_verified": true, "note": "origin of the edit, 9 Sep 2026; same song uploaded as 'original sound - matu'"}
+  ],
+  "sources": [
+   "https://knowyourmeme.com/memes/sean-opry-edit",
+   "https://socialbee.com/blog/latest-instagram-trends/",
+   "https://www.tiktok.com/music/trndsttr-7588947022003374856",
+   "https://www.tiktok.com/music/original-sound-7683476752341142294"
+  ],
+  "weak": false,
+  "notes": "SocialBee's 'Let's…' (14 Oct) is this trend; its IG example ayo.ogunajala 'Let's go to Lidl' has 397K likes, 1 Oct 2026 (https://www.instagram.com/reel/Dd-OHxPoFWQ/), tagged #seanopry. Format confirmed from screenshots of the two skit examples. The song is split across several uploads, so usage_n (sum of two sound pages) undercounts. Origin is the plain edit, not the skit format."
+ },
+ {
+  "n": 15,
+  "name": "\"Yes, but\" split screen",
+  "platforms": ["Instagram", "TikTok"],
+  "status": "Steady",
+  "longevity": "evergreen",
+  "ends": null,
+  "sound": null,
+  "sound_url": null,
+  "what": "Two-panel split screen or carousel: top panel labelled 'Yes' shows the appealing thing, bottom panel 'But' shows the awkward reality behind it.",
+  "origin": "Based on artist Anton Gudim's 'Yes, But' comics; he posted a TikTok version on 24 Jun 2023, and creators revived it as a photo format in mid 2026.",
+  "usage": "No dominant sound; Gudim's sound has 110 TikTok videos and the next biggest 22 (20 Oct 2026). Biggest post found 318K views, 8.3K likes.",
+  "usage_n": 150,
+  "brand_use": "A hotel shows 'Yes: rooftop pool at sunset' over 'But: 40 people in it by 4pm', then a soft plug for the quieter morning swim.",
+  "risk": null,
+  "examples": [
+   {"url": "https://www.tiktok.com/@gudim_public/video/7248216678557879554", "plays": 318400, "likes": 8298, "audio_verified": true, "note": "origin by comic creator Gudim, 24 Jun 2023"},
+   {"url": "https://www.tiktok.com/@_o4.uyu_/video/7676050737213787400", "plays": 138200, "likes": 12100, "audio_verified": true, "note": "most-liked 2026 post found, Gudim sound, 20 Aug 2026"},
+   {"url": "https://www.tiktok.com/@inahh.z5/video/7687954959693925639", "plays": 90900, "likes": 3732, "audio_verified": true, "note": "recent post on Gudim sound, 21 Sep 2026"}
+  ],
+  "sources": [
+   "https://socialbee.com/blog/latest-instagram-trends/",
+   "https://www.tiktok.com/music/original-sound-7248217042166270721",
+   "https://www.tiktok.com/music/original-sound-7641905020002192150"
+  ],
+  "weak": true,
+  "notes": "Format trend with no real shared audio; 'audio_verified' above means they use Gudim's original sound. Only SocialBee lists it (7 and 14 Oct). Its IG example weronika.bebenek has 1,447 likes (30 Sep 2026). On Instagram it is mostly carousels, so reel audio counts don't capture it. usage_n is a rough figure from the two sound pages. No 100K-like post found."
+ }
+]

@@ -28,7 +28,7 @@ function embedUrl(u) {
     const n = i + 1, out = path.join(ROOT, `img/${n}.jpg`);
     if (only ? !only.includes(n) : shots[n]) continue;
     delete shots[n];
-    for (const u of t.examples) {
+    for (const u of t.examples.map(x => x.url || x)) {
       if (/tiktok\.com\/@[^/]+\/video\//.test(u)) {  // the video page ships its cover frame in the HTML
         try {
           const html = await (await fetch(u, { headers: { 'User-Agent': UA } })).text();
@@ -38,6 +38,16 @@ function embedUrl(u) {
             if (img.length > 15000) { fs.writeFileSync(out, img); shots[n] = { kind: 'example', url: u }; break; }
           }
         } catch (err) { console.log(n, 'cover fail', u, err.message); }
+      }
+      if (/instagram\.com\/(p|reels?)\/[\w-]+/.test(u)) {  // the post page serves its cover as og:image to link-preview bots
+        try {
+          const html = await (await fetch(u, { headers: { 'User-Agent': 'facebookexternalhit/1.1' } })).text();
+          const m = html.match(/og:image" content="([^"]+)"/);
+          if (m) {
+            const img = Buffer.from(await (await fetch(m[1].replace(/&amp;/g, '&'))).arrayBuffer());
+            if (img.length > 15000) { fs.writeFileSync(out, img); shots[n] = { kind: 'example', url: u }; break; }
+          }
+        } catch (err) { console.log(n, 'og fail', u, err.message); }
       }
       const e = embedUrl(u);
       if (!e) continue;
